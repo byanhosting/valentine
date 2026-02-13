@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to right, pink, hotpink);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: hotpink;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+button {
+    background: hotpink;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: deeppink;
+  }
