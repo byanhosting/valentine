@@ -2,21 +2,22 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Happy Valentine 💖</title>
+  <title>Valentine 💖</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Musik -->
-<audio autoplay loop>
+<div class="container">
+  <h1>💖 Happy Valentine 💖</h1>
+  <p>klik tombolnya ya 😳</p>
+
+  <button onclick="playMusic()">💘 Putar Musik</button>
+</div>
+
+<!-- audio -->
+<audio id="musik" loop>
   <source src="lagu.mp3" type="audio/mpeg">
 </audio>
-
-<div class="card">
-  <h1>💘 Happy Valentine 💘</h1>
-  <p id="text">Kamu itu spesial ❤️</p>
-  <button onclick="ubahPesan()">Klik Aku 💌</button>
-</div>
 
 <script src="script.js"></script>
 </body>
